@@ -44,7 +44,7 @@ public class ManualActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 
-		manPages = initPages();
+		this.manPages = initPages();
 		ArrayAdapter<Page> manPagesAdapter = new ArrayAdapter<Page>(this,
 				android.R.layout.simple_list_item_1, manPages);
 		ArrayAdapter<Page> manPagesCompleteAdapter = new ArrayAdapter<Page>(
