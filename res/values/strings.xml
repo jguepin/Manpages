@@ -4,7 +4,7 @@
     <string name="about_popup_name">Manpages - The Fine Manual</string>
     <string name="about_popup_desc">Manpages allows to display GNU/Linux manual pages. Each page has its own license (often the GNU FDL).</string>
     <string name="about_popup_licence">Application developed by Julien Guepin. This is free software licensed under the BSD license.</string>
-    <string name="download_suggest">You should download manual pages on your phone to be able to read it without internet connection. 23MB will be stored on your SD card or internal storage. Do you agree ?</string>
+    <string name="download_suggest">You should download manual pages on your device to be able to read it without internet connection. 23MB will be stored on your SD card or internal storage. Do you agree?</string>
     <string name="search">Search</string>
     <string name="sections_title">Manpages sections: </string>
     <string name="sections_1_title">1. Commands (Programs)</string>
@@ -25,5 +25,5 @@
     <string name="no_connection">No internet connection… retry later</string>
     <string name="no_external_storage">No storage found… retry later</string>
     <string name="error_writing">Error while writing file… retry later</string>
-    <string name="error_downloading">Error while writing file… retry later</string>
+    <string name="error_downloading">Error while downloading file… retry later</string>
 </resources>
