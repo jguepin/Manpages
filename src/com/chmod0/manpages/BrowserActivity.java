@@ -104,6 +104,10 @@ public class BrowserActivity extends Activity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		LayoutInflater factory = getLayoutInflater();
 		switch(item.getItemId()){
+		case R.id.index_menu:
+			Intent manualActivity = new Intent(this, ManualActivity.class);
+			startActivity(manualActivity);
+			break;
 		case R.id.about_menu:
 			AlertDialog.Builder aboutDialog = new AlertDialog.Builder(this);
 			aboutDialog.setTitle("About...");
