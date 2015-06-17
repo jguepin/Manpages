@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Manpages</string>
+    <string name="about_popup_name">Manpages - The Fine Manual</string>
+    <string name="about_popup_desc">Manpages vous permet d'affocher les pages de manuel GNU/Linux. Chaque page a sa propre licence (souvent la GNU FDL).</string>
+    <string name="about_popup_licence">Application developpée par Julien Guepin. C'est un logiciel libre sous licence BSD.</string>
+    <string name="download_suggest">Vous devez télécharger les pages de manuel sur votre appareil pour être capable de les lire sans connexion Internet. 23MB vont être utilisés. Êtes vous d'accord ?</string>
+    <string name="search">Rechercher</string>
+    <string name="sections_title">Sections des pages de manuel : </string>
+    <string name="sections_1_title">1. Commandes (programmes)</string>
+    <string name="sections_1_desc">Ces commandes peuvent être éxécutées par l'utilisateur depuis un shell.</string>
+    <string name="sections_2_title">2. Appels systèmes</string>
+    <string name="sections_2_desc">Ces fonctions doivent être faites par le noyau.</string>
+    <string name="sections_3_title">3. Appels de librairies</string>
+    <string name="sections_3_desc">La plupart des fonctions de libc.</string>
+    <string name="sections_4_title">4. Fichiers spéciaux (appareils)</string>
+    <string name="sections_4_desc">Fichiers trouvés dans /dev.</string>
+    <string name="sections_5_title">5. Formats de fichier et conventions</string>
+    <string name="sections_5_desc">Le format pour /etc/passwd et d'autres fichiers lisibles par un humain.</string>
+    <string name="sections_6_title">6. Jeux</string>
+    <string name="sections_7_title">7. Conventions et divers</string>
+    <string name="sections_7_desc">Aperçus de différents sujets, conventions et protocoles, normes de jeux de caractères, et d'autres choses.</string>
+    <string name="sections_8_title">8. Commandes de gestion du système</string>
+    <string name="sections_8_desc">Commandes comme mount(8), beaucoup ne sont éxécutables que par root.</string>
+    <string name="no_connection">Pas de connexion Internet… réessayer plus tard</string>
+    <string name="no_external_storage">Pas de support de stockage trouvé… réessayer plus tard</string>
+    <string name="error_writing">Erreur lors de l'écriture de fichier… réessayer plus tard</string>
+    <string name="error_downloading">Erreur lors de l'écriture du téléchargement… réessayer plus tard</string>
+</resources>
