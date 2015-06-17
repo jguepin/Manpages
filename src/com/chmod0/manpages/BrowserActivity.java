@@ -55,8 +55,8 @@ public class BrowserActivity extends Activity {
 		final Activity activity = this;
 		
 		// Customize the webview to display a progress bar on top of the activity
-		webview.setWebChromeClient(new WebChromeClient(){
-			public void onProgressChanged(WebView view, int progress){
+		webview.setWebChromeClient(new WebChromeClient() {
+			public void onProgressChanged(WebView view, int progress) {
 				activity.setTitle("Loading...");
 				activity.setProgress(progress * 100);
 				if(progress == 100)
@@ -128,7 +128,6 @@ public class BrowserActivity extends Activity {
 	 * This is a class that handle the notifications of the webview
 	 * I want the manpages url to open within the webview, and external urls to open in the stock android browser.
 	 * @author chmod0
-	 *
 	 */
 	private class MyWebViewClient extends WebViewClient{
 		

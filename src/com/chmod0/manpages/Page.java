@@ -4,9 +4,6 @@ import java.io.Serializable;
 
 public class Page implements Serializable{
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	private String name;
 	private int section;
@@ -18,7 +15,7 @@ public class Page implements Serializable{
 	}
 
 	public String getName() {
-		return name;
+		return this.name;
 	}
 
 	public void setName(String name) {
@@ -26,7 +23,7 @@ public class Page implements Serializable{
 	}
 
 	public int getSection() {
-		return section;
+		return this.section;
 	}
 
 	public void setSection(int section) {

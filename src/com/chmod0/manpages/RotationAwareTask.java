@@ -10,7 +10,7 @@ package com.chmod0.manpages;
 
 import android.os.AsyncTask;
 
-public abstract class RotationAwareTask<A, B, C> extends AsyncTask<A, B, C>{
+public abstract class RotationAwareTask<A, B, C> extends AsyncTask<A, B, C> {
 	
 	// Activité attachée à la tâche
 	ManualActivity activity = null;
@@ -19,14 +19,14 @@ public abstract class RotationAwareTask<A, B, C> extends AsyncTask<A, B, C>{
 	 * Constructeur qui créé une tâche liée à une activité
 	 * @param activity activité à lier à la tâche
 	 */
-	public RotationAwareTask(ManualActivity activity){
+	public RotationAwareTask(ManualActivity activity) {
 		attach(activity);
 	}
 	
 	/**
 	 * Détache la tâche de son activité
 	 */
-	public void detach(){
+	public void detach() {
 		this.activity = null;
 	}
 	
@@ -34,7 +34,7 @@ public abstract class RotationAwareTask<A, B, C> extends AsyncTask<A, B, C>{
 	 * Attacher une activité à la tâche
 	 * @param activity activité à attacher
 	 */
-	public void attach(ManualActivity activity){
+	public void attach(ManualActivity activity) {
 		this.activity = activity;
 	}
 
